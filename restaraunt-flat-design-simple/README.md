@@ -1,0 +1,1 @@
+This is the third iteration of my flat design restaurant with vanilla code. I simplified it quite a bit.
