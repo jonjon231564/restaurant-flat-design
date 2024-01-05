@@ -1,0 +1,154 @@
+
+:root {
+    --main-color: #61764B;
+    --secondry-color: #9BA17B;
+    --main-supporting-color: #CFB997;
+    --secondary-supporting-color: #FAD6A5;
+    --call-to-action: #E7B10A;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.lp-1 {
+    text-align: center;
+    
+}
+.lp-1 > p {
+    position: relative;
+    z-index: 20;
+    font-size: 1.3rem;
+    color: var(--secondry-color);    
+    width: 40rem;
+    top: 10rem;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+#lp-1-p1 {
+    font-size: 2rem;
+}
+.dog {
+    transition: opacity 1s ease;
+    position: absolute;
+    height: 100%;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    overflow: hidden;
+    filter: grayscale(100%);
+
+}
+
+@media  (min-width: 1px) {
+    .dog {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.fixed-element {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: #ffffff; 
+    padding: 10px; 
+    z-index: 999; 
+}
+
+#lp-1-arrw {
+    position: absolute;
+    z-index: 1;
+    color: var(--main-color);
+    font-size: 5rem;
+    
+    top: 85vh;
+    right: 48%;
+}
+
+.lp-2 {
+    position: absolute;
+    top: 100%;
+    background-color: var(--secondry-color);
+    height: 50vh;
+    width: 100%;
+    z-index: 20;
+}
+
+#lp-2-head {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2rem;
+    color: var(--secondary-supporting-color);
+    font-style: Courier New, monospace;
+    
+}
+
+#lp-2-menu {
+    font-size: 4rem;
+    position: relative;
+    top: -1rem;
+}
+
+#lp-2-logo {
+    position: relative;
+    left: 1rem;
+}
+
+#lp-2-centertext {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    position: relative;
+    top: 4rem;
+    color: var(--main-supporting-color);
+    gap: 10px;
+    
+}
+
+#lp-2-centertext1 {
+    text-align: center; 
+    font-size: 1.6rem;
+
+}
+
+#lp-2-centertext2 {
+    font-weight: 600;
+    text-align: center; 
+}
+
+#lp-2-centertext3 {
+    text-align: center; 
+    font-size: 1.3rem;
+}
+
+.cat {
+    transition: opacity 1s ease;
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+       
+}
+
+
+
+
+.lp-3 {
+    position: relative;
+    z-index: 30;
+    overflow: hidden;
+    top: 117vh;
+    height: 60vh;
+    width: 100%;
+
+}
