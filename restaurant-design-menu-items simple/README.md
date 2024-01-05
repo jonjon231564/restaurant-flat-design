@@ -1,0 +1,1 @@
+This is the fith iteration of my flat design restaurant with vanilla code. I was playing around with the idea of what a simple menu design would look like for a client who wouldn't want to go through the trouble of taking pictures of all of their dishes.
