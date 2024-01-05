@@ -1,0 +1,1 @@
+This is the seventh iteration of my flat design restaurant with vanilla code. This iteration came with a lot of improvements like a dropdown menu, menu items that have pictures flexed to the sides of the grid boxes, text shadow, embedded google map, and just an overall better use of gridbox.

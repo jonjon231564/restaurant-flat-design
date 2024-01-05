@@ -1,0 +1,65 @@
+[debug] [2023-12-05T06:30:58.519Z] ----------------------------------------------------------------------
+[debug] [2023-12-05T06:30:58.522Z] Command:       /usr/local/bin/firebase /Users/macuser/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2023-12-05T06:30:58.522Z] CLI Version:   12.9.1
+[debug] [2023-12-05T06:30:58.523Z] Platform:      darwin
+[debug] [2023-12-05T06:30:58.523Z] Node Version:  v16.16.0
+[debug] [2023-12-05T06:30:58.524Z] Time:          Tue Dec 05 2023 13:30:58 GMT+0700 (Indochina Time)
+[debug] [2023-12-05T06:30:58.524Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-05T06:30:58.533Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-05T06:30:58.533Z] > authorizing via signed-in user (jon.pitts9@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/macuser/Desktop/my-websites/restaurant-design-flat-bigmenuitems-fullpictures
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-05T06:32:40.145Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-05T06:32:41.043Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-12-05T06:32:41.044Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project jonathans-easy-websites (jonathans easy websites) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2023-12-05T06:32:46.460Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-12-05T06:32:46.460Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/jonathans-easy-websites
+[debug] [2023-12-05T06:32:48.510Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com 200
+[debug] [2023-12-05T06:32:48.510Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com [omitted]
+[warn] ⚠  database: missing required API firebasedatabase.googleapis.com. Enabling now... 
+[debug] [2023-12-05T06:32:48.512Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com:enable [none]
+[debug] [2023-12-05T06:32:48.513Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com:enable x-goog-quota-user=projects/jonathans-easy-websites
+[debug] [2023-12-05T06:32:50.348Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com:enable 200
+[debug] [2023-12-05T06:32:50.348Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com:enable [omitted]
+[debug] [2023-12-05T06:33:00.351Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-12-05T06:33:00.351Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/jonathans-easy-websites
+[debug] [2023-12-05T06:33:02.023Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com 200
+[debug] [2023-12-05T06:33:02.023Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/jonathans-easy-websites/services/firebasedatabase.googleapis.com [omitted]
+[info] ✔  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2023-12-05T06:33:02.029Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jonathans-easy-websites [none]
+[debug] [2023-12-05T06:33:02.632Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jonathans-easy-websites 200
+[debug] [2023-12-05T06:33:02.632Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jonathans-easy-websites {"projectId":"jonathans-easy-websites","projectNumber":"426011331102","displayName":"jonathans easy websites","name":"projects/jonathans-easy-websites","resources":{"hostingSite":"jonathans-easy-websites"},"state":"ACTIVE","etag":"1_2d2d225d-f287-487f-9bd1-639e9ea932f3"}
+[debug] [2023-12-05T06:33:17.499Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/jonathans-easy-websites/locations/us-central1/instances databaseId=jonathans-easy-websites-default-rtdb&validateOnly=true
+[debug] [2023-12-05T06:33:17.499Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/jonathans-easy-websites/locations/us-central1/instances {"type":"default_database"}
+[debug] [2023-12-05T06:33:19.427Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/jonathans-easy-websites/locations/us-central1/instances 200
+[debug] [2023-12-05T06:33:19.428Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/jonathans-easy-websites/locations/us-central1/instances {"name":"projects/426011331102/locations/us-central1/instances/jonathans-easy-websites-default-rtdb","project":"projects/426011331102","databaseUrl":"https://jonathans-easy-websites-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2023-12-05T06:33:19.431Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/jonathans-easy-websites/locations/us-central1/instances databaseId=jonathans-easy-websites-default-rtdb
+[debug] [2023-12-05T06:33:19.431Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/jonathans-easy-websites/locations/us-central1/instances {"type":"default_database"}
+[debug] [2023-12-05T06:33:21.576Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/jonathans-easy-websites/locations/us-central1/instances 200
+[debug] [2023-12-05T06:33:21.576Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/jonathans-easy-websites/locations/us-central1/instances {"name":"projects/426011331102/locations/us-central1/instances/jonathans-easy-websites-default-rtdb","project":"projects/426011331102","databaseUrl":"https://jonathans-easy-websites-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
