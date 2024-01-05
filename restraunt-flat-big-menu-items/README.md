@@ -1,0 +1,1 @@
+This is the fourth iteration of my flat design restaurant with vanilla code. I used the slideshow function with this one through javascript but made the code more concise. I ovbiously have a long way to go as far as color theory.
